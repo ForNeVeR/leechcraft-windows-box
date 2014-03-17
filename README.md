@@ -26,8 +26,10 @@ for building the whole Leechcraft.
    version](http://technet.microsoft.com/ru-ru/windows/hh771457.aspx)
    may or may not be okay for you - check the license yourself.
 5. Create the VirtualBox guest. The recommended parameters are 2-core
-   processor, 2 GB of RAM and 120 GB disk.
+   processor, 2 GB of RAM and 120 GB disk. Name the box as
+   "leechcraft-windows-box".
 6. Install the Windows on the guest box.
-7. Additional configuration steps are described in [the corresponding 
+7. It's recommended now to make a snapshot of current box's state.
+8. Additional configuration steps are described in [the corresponding 
    section of vagrant-windows
    documentation](https://github.com/WinRb/vagrant-windows#creating-a-base-box).
