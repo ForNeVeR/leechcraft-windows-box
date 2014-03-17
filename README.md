@@ -25,3 +25,9 @@ for building the whole Leechcraft.
 4. Download the Windows 8.1 ISO image. [Windows 8.1 Evaluation 
    version](http://technet.microsoft.com/ru-ru/windows/hh771457.aspx)
    may or may not be okay for you - check the license yourself.
+5. Create the VirtualBox guest. The recommended parameters are 2-core
+   processor, 2 GB of RAM and 120 GB disk.
+6. Install the Windows on the guest box.
+7. Additional configuration steps are described in [the corresponding 
+   section of vagrant-windows
+   documentation](https://github.com/WinRb/vagrant-windows#creating-a-base-box).
