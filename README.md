@@ -33,9 +33,14 @@ for building the whole Leechcraft.
 8. Additional configuration steps are described in [the corresponding 
    section of vagrant-windows
    documentation](https://github.com/WinRb/vagrant-windows#creating-a-base-box).
+
+   Don't forget to give the administrator rights to the `vagrant` user!
+9. It's is recommended to create new snapshot at this moment.
 9. Create a Vagrant box from your VirtualBox guest using the following
    command:
 
    ```
 vagrant package --base "leechcraft-windows-box" --output .\leechcraft-windows.box
    ```
+
+Now the Vagrant box is ready for action. `vagrant up` will start it.
