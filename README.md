@@ -60,4 +60,4 @@ $credential = New-Object `
 Enter-PsSession -ComputerName 'localhost' -Credential $credential
 ```
 
-Also, you may use RDP (through port 13389).
+Also, you may use RDP (through port `13389`).
