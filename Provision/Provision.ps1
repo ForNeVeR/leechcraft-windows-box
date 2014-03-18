@@ -1,1 +1,1 @@
-. C:\vagrant\chocolatey.ps1
+. C:\vagrant\Provision\chocolatey.ps1
