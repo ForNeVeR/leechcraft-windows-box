@@ -1,0 +1,1 @@
+. C:\vagrant\chocolatey.ps1
